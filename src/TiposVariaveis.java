@@ -14,6 +14,7 @@ public class TiposVariaveis {
         short numeroCurto2 = (short) numeroNormal;  // casting //
 
         final double VALOR_DE_PI = 3.14; // CONSTANTE, variavel declarada com a sintaxe 'final', obrigatoriamente se nomeia a variavel com CAIXA ALTA. //
-    
+        
+        String meuNome = "Mateus"; // esse tipo e utilizado para representar texto, deve ser utilizado aspas no texto.
     }
 }
