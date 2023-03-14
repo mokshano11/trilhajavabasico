@@ -2,15 +2,13 @@ public class Operadores {
 
     public static void main(String[] args) throws Exception {
 
-       int numero = +5;
+    boolean variavel = true;
 
-       numero = - numero;
+    variavel = !variavel;
 
-    System.out.println(numero);
+    System.out.println(variavel);
 
-       numero = + numero * -1;
-
-    System.out.println(numero);
+    
     }
     
 }
