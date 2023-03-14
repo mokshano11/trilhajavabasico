@@ -2,26 +2,23 @@ public class Operadores {
 
     public static void main(String[] args) throws Exception {
     
-        String nomeUm = "Mateus";
-        String nomeDois = new String ("Mateus");
+    boolean condicao1=true;
+    boolean condicao2=true;
 
-        System.out.println(nomeUm.equals(nomeDois));  // utilizar .equals para relacionar OBJETOS
+    if(condicao1 && ( 7 > 4)){
 
+    System.out.println("as duas condicoes sao verdadeiras");
 
-        int numero1 = 1;
-        int numero2 = 2;
+    }
 
-        boolean simNao = numero1 == numero2;
+    if(condicao1 || condicao2){
 
-        System.out.println("numeroUm, e igual a numeroDois? " + simNao);
+    System.out.println("uma das condicoes e verdadeira");
 
-        simNao = numero1 != numero2;
+    }
 
-        System.out.println("numeroUm, e diferente a numeroDois? " + simNao);
+    System.out.println("fim");
 
-        simNao = numero1 <= numero2;
-    
-        System.out.println("numeroUm, e menor a numeroDois? " + simNao);
     }
     
 }
